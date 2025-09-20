@@ -11,8 +11,8 @@ import Cookies from "js-cookie";
 import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
 
-export const user_service = process.env.NEXT_PUBLIC_USER_SERVICE;
-export const chat_service = process.env.NEXT_PUBLIC_CHAT_SERVICE;
+export const user_service = "http://16.171.41.165:5000";
+export const chat_service = "http://16.171.41.165:5002";
 
 
 export interface User {
